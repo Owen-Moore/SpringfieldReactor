@@ -48,7 +48,6 @@
             this.label1.Size = new System.Drawing.Size(361, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nuclear Reactor Control";
-            //this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -77,7 +76,6 @@
             this.reactor1StateLabel.Name = "reactor1StateLabel";
             this.reactor1StateLabel.Size = new System.Drawing.Size(132, 119);
             this.reactor1StateLabel.TabIndex = 3;
-           // this.reactor1StateLabel.Click += new System.EventHandler(this.reactor1StateLabel_Click);
             // 
             // label4
             // 
@@ -109,11 +107,10 @@
             this.outputLabel.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.outputLabel.Location = new System.Drawing.Point(292, 324);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(242, 39);
+            this.outputLabel.Size = new System.Drawing.Size(272, 39);
             this.outputLabel.TabIndex = 6;
-            this.outputLabel.Text = "Reactor Stable";
+            this.outputLabel.Text = "everything is fine";
             this.outputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            //this.outputLabel.Click += new System.EventHandler(this.outputLabel_Click);
             // 
             // resetButton1
             // 
@@ -142,7 +139,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            //this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
